@@ -1,7 +1,157 @@
-﻿
-@{
-    ViewData["Title"] = "Index";
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // use your project’s layout if available
 }
 
-<h1>Welcome to Admin Page  </h1>
+<div class="container mt-4">
+    <h2 class="mb-4 text-center">EduSync AI - Admin Dashboard</h2>
 
+    <!-- Dashboard Summary Cards -->
+    <div class="row text-center mb-4">
+        <div class="col-md-3">
+            <div class="card bg-primary text-white shadow">
+                <div class="card-body">
+                    <h5>Total Users</h5>
+                    <h2>120</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-success text-white shadow">
+                <div class="card-body">
+                    <h5>Total Materials</h5>
+                    <h2>85</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-warning text-white shadow">
+                <div class="card-body">
+                    <h5>Total Videos</h5>
+                    <h2>42</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-danger text-white shadow">
+                <div class="card-body">
+                    <h5>Total PDFs</h5>
+                    <h2>18</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Manage Materials -->
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+            Manage Learning Materials
+        </div>
+        <div class="card-body">
+            <button class="btn btn-success mb-3">Add New Material</button>
+            <table class="table table-bordered">
+                <thead class="table-light">
+                    <tr>
+                        <th>Title</th>
+                        <th>Role</th>
+                        <th>Subject</th>
+                        <th>Type</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Object-Oriented Programming Basics</td>
+                        <td>Backend Developer</td>
+                        <td>OOP</td>
+                        <td>PDF</td>
+                        <td>
+                            <button class="btn btn-warning btn-sm">Edit</button>
+                            <button class="btn btn-danger btn-sm">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Machine Learning Crash Course</td>
+                        <td>Researcher</td>
+                        <td>AI</td>
+                        <td>Video</td>
+                        <td>
+                            <button class="btn btn-warning btn-sm">Edit</button>
+                            <button class="btn btn-danger btn-sm">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- View Users -->
+    <div class="card mb-4">
+        <div class="card-header bg-success text-white">
+            View Registered Users
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered">
+                <thead class="table-light">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                        <th>Registered At</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Haseeb Ahmed</td>
+                        <td>haseeb@example.com</td>
+                        <td>Researcher</td>
+                        <td>2025-10-20</td>
+                    </tr>
+                    <tr>
+                        <td>Tayyab Khan</td>
+                        <td>tayyab@example.com</td>
+                        <td>Developer</td>
+                        <td>2025-10-18</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Upload Section -->
+    <div class="card mb-4">
+        <div class="card-header bg-dark text-white">
+            Upload New Resource
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Title</label>
+                    <input type="text" class="form-control" placeholder="Enter material title">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Role Tag</label>
+                    <input type="text" class="form-control" placeholder="e.g. Backend Developer">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Subject Tag</label>
+                    <input type="text" class="form-control" placeholder="e.g. AI, OOP, Networking">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Type</label>
+                    <select class="form-select">
+                        <option>PDF</option>
+                        <option>Video</option>
+                        <option>Link</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Upload File or Link</label>
+                    <input type="file" class="form-control">
+                    <small class="text-muted">You can upload a PDF/video or paste a link.</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Upload</button>
+            </form>
+        </div>
+    </div>
+</div>
