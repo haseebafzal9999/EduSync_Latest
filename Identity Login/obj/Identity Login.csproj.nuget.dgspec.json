@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\5FIFTH SEMESTER\\Software Project Management(SPM)\\Identity Login\\Identity Login\\Identity Login.csproj": {}
+    "E:\\5FIFTH SEMESTER\\SPM_Project\\Identity Login\\Identity Login.csproj": {}
   },
   "projects": {
-    "E:\\5FIFTH SEMESTER\\Software Project Management(SPM)\\Identity Login\\Identity Login\\Identity Login.csproj": {
+    "E:\\5FIFTH SEMESTER\\SPM_Project\\Identity Login\\Identity Login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\5FIFTH SEMESTER\\Software Project Management(SPM)\\Identity Login\\Identity Login\\Identity Login.csproj",
+        "projectUniqueName": "E:\\5FIFTH SEMESTER\\SPM_Project\\Identity Login\\Identity Login.csproj",
         "projectName": "Identity Login",
-        "projectPath": "E:\\5FIFTH SEMESTER\\Software Project Management(SPM)\\Identity Login\\Identity Login\\Identity Login.csproj",
+        "projectPath": "E:\\5FIFTH SEMESTER\\SPM_Project\\Identity Login\\Identity Login.csproj",
         "packagesPath": "C:\\Users\\hasee\\.nuget\\packages\\",
-        "outputPath": "E:\\5FIFTH SEMESTER\\Software Project Management(SPM)\\Identity Login\\Identity Login\\obj\\",
+        "outputPath": "E:\\5FIFTH SEMESTER\\SPM_Project\\Identity Login\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

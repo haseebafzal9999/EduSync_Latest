@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X06lnszJi3o=",
+  "dgSpecHash": "iuR3MI9u0Wk=",
   "success": true,
-  "projectFilePath": "E:\\5FIFTH SEMESTER\\Software Project Management(SPM)\\Identity Login\\Identity Login\\Identity Login.csproj",
+  "projectFilePath": "E:\\5FIFTH SEMESTER\\SPM_Project\\Identity Login\\Identity Login.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hasee\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\hasee\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
