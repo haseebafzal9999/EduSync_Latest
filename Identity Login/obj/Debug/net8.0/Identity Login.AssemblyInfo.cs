@@ -11,11 +11,10 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Identity Login")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e4fcc22baffc16060a84eac18fe265b20831e64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d36984bea116406dcb8d7944acc7fa5e97c36c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Identity Login")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Identity Login")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

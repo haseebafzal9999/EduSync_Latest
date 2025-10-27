@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\5FIFTH SEMESTER\\SPM_Project\\Identity Login\\Identity Login.csproj": {}
+    "E:\\Semester 5\\SPM\\Project\\Identity Login\\Identity Login.csproj": {}
   },
   "projects": {
-    "E:\\5FIFTH SEMESTER\\SPM_Project\\Identity Login\\Identity Login.csproj": {
+    "E:\\Semester 5\\SPM\\Project\\Identity Login\\Identity Login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\5FIFTH SEMESTER\\SPM_Project\\Identity Login\\Identity Login.csproj",
+        "projectUniqueName": "E:\\Semester 5\\SPM\\Project\\Identity Login\\Identity Login.csproj",
         "projectName": "Identity Login",
-        "projectPath": "E:\\5FIFTH SEMESTER\\SPM_Project\\Identity Login\\Identity Login.csproj",
-        "packagesPath": "C:\\Users\\hasee\\.nuget\\packages\\",
-        "outputPath": "E:\\5FIFTH SEMESTER\\SPM_Project\\Identity Login\\obj\\",
+        "projectPath": "E:\\Semester 5\\SPM\\Project\\Identity Login\\Identity Login.csproj",
+        "packagesPath": "C:\\Users\\Muhammad Tayyab\\.nuget\\packages\\",
+        "outputPath": "E:\\Semester 5\\SPM\\Project\\Identity Login\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hasee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Muhammad Tayyab\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -96,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
